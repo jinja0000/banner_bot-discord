@@ -45,7 +45,7 @@ async def on_message(message):
             return
 
         # 배너개설 및 배너역할 추가
-        crcn = await message.guild.create_text_channel(name=channelname,
+        crcn = await message.guild.create_text_channel(name=🍎channelname,
                                                        category=message.guild.get_channel(category_id))
         await message.author.add_roles(bannerrole)
 
